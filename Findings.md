@@ -122,7 +122,7 @@ Findings with **Critical** or **High** priority require immediate management att
 | **Description** | The organization does not perform vulnerability scanning on any systems. No scanning tools are deployed. Vulnerability identification relies solely on vendor notifications and Windows Update. Network devices (firewall, NAS) are never scanned. |
 | **Evidence** | EVD-RA-03 — No vulnerability scan results. IT Manager confirmed no scanning is performed. |
 | **Risk** | Unknown vulnerabilities in systems, applications, and network devices cannot be remediated. Critical vulnerabilities may exist for months or years without detection. |
-| **Impact** | Increased likelihood of successful exploitation. Inability to meet DFACS/NIST requirement for periodic vulnerability scanning. |
+| **Impact** | Increased likelihood of successful exploitation. Inability to meet DFARS/NIST requirement for periodic vulnerability scanning. |
 | **Recommendation** | (1) Deploy a vulnerability scanning tool (e.g., Nessus Professional, Qualys, or integrated scanning via Microsoft Defender for Business). (2) Scan all in-scope systems at least monthly. (3) Establish a vulnerability remediation SLA (Critical: 14 days, High: 30 days, Medium: 90 days). (4) Document scan results and remediation in a POA&M. |
 | **Priority** | **High** |
 | **Reference** | NIST SP 800-171 3.11.2, 3.11.3 |

@@ -17,7 +17,7 @@ The data flow analysis directly informs control testing across Access Control (A
 ```mermaid
 flowchart TB
     subgraph EXTERNAL["External Entities"]
-        T[Tennants<br/>Military Families]
+        T[Tenants<br/>Military Families]
         G[DoD / Prime<br/>Contractor]
         S[Construction<br/>Subcontractors]
         V[Vendors<br/>Background Check,<br/>Payroll]
@@ -233,7 +233,7 @@ flowchart LR
 
     subgraph TB3["Trust Boundary 3 — External (No Control)"]
         direction TB
-        T[Tennants]
+        T[Tenants]
         G[DoD]
         S[Subcontractors]
         V[Vendors]
@@ -261,7 +261,7 @@ flowchart LR
 |:-:|-------------|:----:|:-------------:|:------------------------:|
 | 1 | **No data classification labeling** — Employees cannot distinguish CUI from non-CUI in email or documents | High | CUI | AC, AT, SC |
 | 2 | **Direct-to-cloud access from unmanaged BYOD** — Mobile devices access CUI/PII without device compliance checks | **Critical** | PII, CUI | AC, SC, IA |
-| 3 | **PM SaaS backup to NAS creates data spill risk** — Downloading cloud data to on-prem file share may leave unencrypted copies in transit or at rest | Medium | PII, CUI | MP, SC, CP |
+| 3 | **PM SaaS backup to NAS creates data spill risk** — Downloading cloud data to on-prem file share may leave unencrypted copies in transit or at rest | Medium | PII, CUI | MP, SC, CA |
 | 4 | **MSP privileged access unmonitored** — No logging or alerting on MSP administrative actions | High | All data | AC, AU, IR |
 | 5 | **External guest users in M365 with potential CUI access** — Guest accounts may not be reviewed or removed | High | CUI, PII | AC, IA |
 | 6 | **No site-to-site VPN between property offices and head office** — All traffic routed through internet to cloud | Low | Operational | SC (compensating controls via HTTPS) |

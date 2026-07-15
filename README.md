@@ -4,7 +4,7 @@
 **Role:** GRC Analyst — Security Assessment Lead  
 **Framework:** NIST SP 800-171 (Rev 2)  
 **Compliance Score:** 53% (107 controls assessed)  
-**Duration:** 12 weeks  
+**Duration:** 6 weeks  
 
 ---
 

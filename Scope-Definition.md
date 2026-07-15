@@ -152,8 +152,8 @@ The following diagram illustrates the assessment boundary:
 
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
-| Lead Consultant | [Consultant Name] | | |
-| Executive Sponsor | [Client Name] | | |
+| Lead Consultant | Confidential | | |
+| Executive Sponsor | Confidential | | |
 
 ---
 

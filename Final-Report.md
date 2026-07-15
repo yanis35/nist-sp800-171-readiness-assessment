@@ -371,27 +371,27 @@ SI  █████████████████████████�
 
 ### Appendix A: System Boundary Diagram
 
-Refer to Phase 5 deliverable: `05-System-Boundary/01-System-Boundary.md`
+Refer to Phase 5 deliverable: `System-Boundary.md`
 
 ### Appendix B: Asset Inventory
 
-Refer to Phase 6 deliverable: `06-Asset-Inventory/01-Asset-Inventory.md`
+Refer to Phase 6 deliverable: `Asset-Inventory.md`
 
 ### Appendix C: Data Flow Diagram
 
-Refer to Phase 7 deliverable: `07-Data-Flow/01-Data-Flow-Diagram.md`
+Refer to Phase 7 deliverable: `Data-Flow-Diagram.md`
 
 ### Appendix D: Control Assessment Matrix (Complete)
 
-Refer to Phase 15 deliverable: `15-Control-Assessment/01-Control-Assessment-Matrix.md`
+Refer to Phase 15 deliverable: `Control-Assessment-Matrix.md`
 
 ### Appendix E: Findings Register
 
-Refer to Phase 16 deliverable: `16-Findings/01-Findings.md`
+Refer to Phase 16 deliverable: `Findings.md`
 
 ### Appendix F: Gap Analysis and Remediation Plan
 
-Refer to Phase 17 deliverable: `17-Gap-Analysis/01-Gap-Analysis.md`
+Refer to Phase 17 deliverable: `Gap-Analysis.md`
 
 ### Appendix G: Evidence Register
 
@@ -403,9 +403,9 @@ The Evidence Register is maintained in the assessment working papers and is avai
 
 | Role | Name | Date Distributed |
 |------|------|:----------------:|
-| Lead Consultant | [Consultant Name] | August 21, 2026 |
-| Executive Sponsor | [Client Name] | August 21, 2026 |
-| IT Manager | [Client Name] | August 21, 2026 |
+| Lead Consultant | Confidential | August 21, 2026 |
+| Executive Sponsor | Confidential | August 21, 2026 |
+| IT Manager | Confidential | August 21, 2026 |
 
 ---
 
