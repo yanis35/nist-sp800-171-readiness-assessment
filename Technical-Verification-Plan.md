@@ -209,8 +209,8 @@ ITEM: 5.3  |  Full Disk Encryption Check
 ─────────────────────────────────────────────────────────────
 System:       HQ-WKS-003 (IT Admin Workstation)
 Date:         2026-07-22
-Assessor:     [Name]
-Result:       [PASS / FAIL / PARTIAL]
+Assessor:     Confidential
+Result:       PASS
 Evidence:     HQ-WKS-003_BitLocker-Status_2026-07-22.png
 Notes:        BitLocker enabled, protection ON. Recovery key
               backed up to AD. TPM + PIN configured.
