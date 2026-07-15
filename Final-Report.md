@@ -152,7 +152,7 @@ Workstations (8 of 20), property offices (2 of 2), mobile devices (5 of ~17), an
 
 | Family | Implemented | Partial | Not Impl. | N/A | Not Assessed | Score (I only) |
 |--------|:-----------:|:-------:|:---------:|:---:|:------------:|:--------------:|
-| AC — Access Control | 5 | 10 | 6 | 0 | 1 | 23% |
+| AC — Access Control | 5 | 10 | 6 | 0 | 1 | 24% |
 | AT — Awareness & Training | 0 | 1 | 2 | 0 | 0 | 0% |
 | AU — Audit & Accountability | 3 | 2 | 4 | 0 | 0 | 33% |
 | CM — Configuration Management | 0 | 4 | 5 | 0 | 0 | 0% |
