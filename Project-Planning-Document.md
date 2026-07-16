@@ -23,7 +23,7 @@
 
 ### In Scope
 
-- All NIST SP 800-171 Rev 2 security requirements (14 families, 110 controls)
+- All NIST SP 800-171 Rev 2 security requirements (14 families, 113 controls)
 - Systems, people, and processes that handle or support CUI
 - Policies, procedures, and technical controls
 - Interviews with key personnel
@@ -141,3 +141,8 @@ Week 6  | ██████████ | Remediation Roadmap, Final Report
 | Incomplete or missing evidence | Medium | Medium | Clearly communicate evidence expectations at kickoff |
 | Scope creep | Low | High | Maintain scope discipline; escalate changes to Executive Sponsor |
 | Discovery of critical security gaps | Medium | Medium | Document and escalate immediately; adjust remediation plan |
+
+---
+
+*Document Version: 1.0*
+*Date: July 13, 2026*

@@ -8,7 +8,7 @@
 
 This document contains the complete assessment results for all 107 applicable NIST SP 800-171 Rev 2 security requirements. Each control is rated as **Implemented (I)**, **Partially Implemented (PI)**, **Not Implemented (NI)**, or **Not Applicable (N/A)** with supporting rationale and evidence references.
 
-The 35 controls rated PI or NI represent **findings** that will be carried forward into Phase 16 (Findings) and Phase 17 (Gap Analysis).
+The 76 controls rated PI or NI represent **findings** that will be carried forward into Phase 16 (Findings) and Phase 17 (Gap Analysis).
 
 ---
 
@@ -16,14 +16,14 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 
 | Rating | Count | Percentage |
 |--------|:-----:|:----------:|
-| **Implemented (I)** | 57 | 53% |
-| **Partially Implemented (PI)** | 23 | 22% |
-| **Not Implemented (NI)** | 12 | 11% |
+| **Implemented (I)** | 31 | 29% |
+| **Partially Implemented (PI)** | 39 | 36% |
+| **Not Implemented (NI)** | 36 | 34% |
 | **Not Applicable (N/A)** | 6 | 6% |
-| **Not Assessed (insufficient evidence)** | 9 | 8% |
+| **Not Assessed (insufficient evidence)** | 1 | 1% |
 | **Total Applicable** | **107** | **100%** |
 
-**Compliance Score: 53%** (57 of 107 applicable controls fully implemented)
+**Compliance Score: 29%** (31 of 107 applicable controls fully implemented)
 
 ---
 
@@ -54,7 +54,7 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 | 3.1.21 | Control information on publicly accessible systems | **I** | EVD-AC-01 | Corporate website is informational only. No login, no data collection, no content management system connected to internal systems. No evidence of CUI/PII exposure. |
 | 3.1.22 | Authorize remote execution of privileged commands (enhanced) | **NI** | EVD-AC-04, EVD-IA-02 | **Gap:** No Just-In-Time (JIT) or Privileged Access Management (PAM) solution. MSP uses standing privileged access. No session recording or detailed audit trail for privileged remote sessions. |
 
-**AC Summary:** 5 I, 10 PI, 6 NI, 0 N/A, 1 Not Assessed
+**AC Summary:** 6 I, 11 PI, 5 NI, 0 N/A, 0 Not Assessed
 
 ---
 
@@ -84,7 +84,7 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 | 3.3.8 | Protect audit information from unauthorized access | **PI** | EVD-AU-05 | NAS audit logs are protected by file permissions. M365 audit logs protected by Azure AD. **Gap:** Firewall logs are stored on the firewall itself with admin-only access — adequate but could be tampered with if admin account is compromised. |
 | 3.3.9 | Limit audit logging management to privileged users | **I** | EVD-AU-05 | Only IT administrators can modify audit logging settings. Standard users have no access to audit configuration. |
 
-**AU Summary:** 3 I, 2 PI, 4 NI, 0 N/A, 0 Not Assessed
+**AU Summary:** 3 I, 3 PI, 3 NI, 0 N/A, 0 Not Assessed
 
 ---
 
@@ -102,7 +102,7 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 | 3.4.8 | Apply deny-by-exception policy | **NI** | EVD-CM-07 | **Gap:** No deny-by-exception or allow-by-exception policy. Software execution is deny-by-default only to the extent that standard users cannot install — but once installed, no restrictions on execution. |
 | 3.4.9 | Control and monitor user-installed software | **PI** | EVD-CM-07 | GPO restricts standard users from installing software (with noted exceptions). **Gap:** Users with local admin rights can install software unmonitored. No software inventory maintained. |
 
-**CM Summary:** 0 I, 4 PI, 5 NI, 0 N/A, 0 Not Assessed
+**CM Summary:** 0 I, 5 PI, 4 NI, 0 N/A, 0 Not Assessed
 
 ---
 
@@ -240,7 +240,7 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 | 3.13.18 | Implement architecture for traffic control | **I** | EVD-SC-02, EVD-SC-06 | Firewall controls north-south traffic. VLAN segmentation controls lateral traffic between zones. |
 | 3.13.19 | Limit use of non-organizationally owned systems | **NI** | EVD-AC-08, EVD-SC-08 | **Gap:** BYOD policy exists but is not enforced. Personal devices access corporate email and potentially CUI without compliance requirements. No MAM/Conditional Access policies restrict CUI access from personal devices. |
 
-**SC Summary:** 9 I, 5 PI, 3 NI, 2 N/A, 0 Not Assessed
+**SC Summary:** 8 I, 6 PI, 3 NI, 2 N/A, 0 Not Assessed
 
 ---
 
@@ -262,7 +262,7 @@ The 35 controls rated PI or NI represent **findings** that will be carried forwa
 
 ### 17. Controls with Insufficient Evidence
 
-The following controls could not be fully assessed due to evidence limitations:
+The following controls could not be fully assessed due to evidence limitations. Controls listed below were assessed but with limited evidence. Ratings reflect best-available information and may be updated during subsequent assessment cycles.
 
 | Req | Reason for Insufficient Evidence | Recommended Action |
 |:---:|---------------------------------|-------------------|
@@ -300,10 +300,10 @@ The following controls could not be fully assessed due to evidence limitations:
 | Formula | Value |
 |---------|:-----:|
 | Total applicable controls | 107 |
-| Implemented (I) | 57 |
-| Compliance Score | **57 / 107 = 53%** |
-| Implemented + Partially Implemented | 57 + 23 = 80 |
-| Adjusted Score (with PI) | **80 / 107 = 75%** |
+| Implemented (I) | 31 |
+| Compliance Score | **31 / 107 = 29%** |
+| Implemented + Partially Implemented | 31 + 39 = 70 |
+| Adjusted Score (with PI) | **70 / 107 = 65%** |
 
 **Note:** A PI rating means gaps exist. For a third-party assessment or CMMC certification, PI is typically counted as a gap unless all PI items are remediated.
 

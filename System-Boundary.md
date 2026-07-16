@@ -8,7 +8,7 @@
 
 This document defines the **Security Protection Asset (SPA)** boundary for the CUI environment. The system boundary establishes the exact technical and logical perimeter within which NIST SP 800-171 security requirements are assessed and enforced.
 
-All systems, users, and data flows inside this boundary are subject to the 110 security requirements of NIST SP 800-171 Rev 2.
+All systems, users, and data flows inside this boundary are subject to the 113 security requirements of NIST SP 800-171 Rev 2.
 
 ---
 
